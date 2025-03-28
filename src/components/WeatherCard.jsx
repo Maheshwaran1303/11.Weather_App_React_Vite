@@ -5,7 +5,7 @@ import { FaSearch, FaMapMarkerAlt, FaWind, FaTint } from "react-icons/fa";
 const API_KEY = "da29788be0269e4b647bcd0e762e5ea7"; // Replace with your OpenWeatherMap API Key
 
 const WeatherCard = () => {
-  const [city, setCity] = useState("Chennai");
+  const [city, setCity] = useState("Surandai");
   const [weather, setWeather] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
